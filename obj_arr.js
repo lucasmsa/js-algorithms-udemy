@@ -9,7 +9,7 @@ function ascendingsort(a, b){
     return a - b;
 }
 
-function invertsort(a, b) {
+function invert(a, b) {
     return a + b;
 }
 
@@ -21,4 +21,4 @@ let names = ['leny', 'bobinho', 'kenny'];
 console.log(names[2]);
 
 let numbers = [63,42,78,92,46,103,101,110,9];
-console.log(numbers.sort(compareminus))
+console.log(numbers.sort(ascendingsort));
