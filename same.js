@@ -77,4 +77,4 @@ var arra = [1, 9, 49, 144, 169];
 var a = Math.pow(3, 2);
 console.log(a);
 
-console.log(same_frequency(arro, arra));
+console.log(same_sort(arro, arra));
